@@ -2,10 +2,13 @@
 
 ### Reference Documentation
 
-For further reference, please consider the following sections:
-
 ```bash
 ./gradlew clean bootJar
+```
+
+Run chmod command when you get "./gradlew permission denied" error. 
+```bash
+chmod +x gradlew
 ```
 
 ```docker
