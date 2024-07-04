@@ -1,4 +1,4 @@
-FROM openjdk:17-oracle
+FROM openjdk:21-oracle
 WORKDIR /my-project
 CMD ["./gradlew", "clean", "bootJar"]
 COPY build/libs/*.jar app.jar
